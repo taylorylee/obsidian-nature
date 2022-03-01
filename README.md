@@ -3,7 +3,7 @@
 https://help.obsidian.md/How+to/Add+custom+styles
 
 
-## About Minimal
+## About 
 
 - [Features](#features)
 - [Installation](#installation)
