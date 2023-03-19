@@ -1,0 +1,168 @@
+/* ---------------------------------------------------------------------------
+Obsidian 1.0.0 Nature Theme by @taylorylee
+User interface replacement for Obsidian.
+Designed to be used with the  Theme Settings 
+plugin and the Hider plugin.
+
+-----------------------------------------------------------------------------
+MIT License
+Copyright (c) 2022 Taylor Lee (@taylorylee)
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+The above copyright notice and this permission notice shall be included in 
+all copies or substantial portions of the Software.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+*/
+
+/* 
+@nature-theme-light
+
+For additional context, 
+- '.cm-s' is a prefix for CodeMirror themes, which is used as the editor component in Obsidian.
+- When creating this, it was more about the qualia and accessibility, the ones that brings warm earth tones
+*/
+
+
+/* Background */
+body {
+    background-color: #FAF9F5;
+}
+
+/* Main text color */
+.markdown-preview-view,
+.cm-s-obsidian,
+.cm-s-obsidian span {
+    color: #C1C89F;
+}
+
+/* Links */
+a {
+    color: #BAC8D3;
+}
+
+a:hover {
+    color: #3D3B50;
+}
+
+/* Headings */
+.cm-header-1,
+.cm-header-2,
+.cm-header-3,
+.cm-header-4,
+.cm-header-5,
+.cm-header-6 {
+    color: #BDD292;
+}
+
+/* Code blocks */
+.cm-s-obsidian .CodeMirror-gutters {
+    background-color: #FAF9F5;
+}
+
+.cm-s-obsidian .CodeMirror-code {
+    background-color: #F5FFFA;
+}
+
+/* Blockquotes */
+.markdown-preview-view blockquote {
+    color: #7F8657;
+    border-left: 4px solid #A4B362;
+}
+
+/* Horizontal lines */
+hr {
+    border-top: 2px dashed #BDD292;
+    border-bottom: none;
+}
+
+/* Inline code */
+.markdown-preview-view code {
+    background-color: #FAF9F5;
+    color: #A4B362;
+    padding: 2px 5px;
+    border-radius: 5px;
+}
+
+/* Checkboxes */
+.markdown-preview-view li.task-list-item {
+    color: #7F8657;
+}
+
+.markdown-preview-view input[type="checkbox"] + p {
+    color: #7F8657;
+}
+
+.markdown-preview-view input[type="checkbox"]:checked + p {
+    color: #A4B362;
+}
+
+/* Tags */
+.tag {
+    background-color: #FAF9F5;
+    color: #A4B362;
+    border: 1px solid #BDD292;
+    border-radius: 4px;
+}
+
+.tag:hover {
+    background-color: #F5FFFA;
+}
+
+/* Search */
+.search-results-item {
+    background-color: #F5FFFA;
+    color: #BDD292;
+}
+
+.search-results-item:hover {
+    background-color: #FAF9F5;
+}
+
+.cm-s-obsidian .cm-comment,
+.cm-s-obsidian .cm-string,
+.cm-s-obsidian .cm-atom {
+    color: #4E4E4E;
+}
+
+.cm-s-obsidian .cm-keyword,
+.cm-s-obsidian .cm-attribute,
+.cm-s-obsidian .cm-def {
+    color: #4E4E4E;
+    font-weight: bold;
+}
+
+.cm-s-obsidian .cm-variable {
+    color: #4E4E4E;
+    font-style: italic;
+}
+
+.cm-s-obsidian .cm-variable-2,
+.cm-s-obsidian .cm-variable-3 {
+    color: #4E4E4E;
+}
+
+.cm-s-obsidian .cm-number {
+    color: #4E4E4E;
+}
+
+.cm-s-obsidian .cm-property,
+.cm-s-obsidian .cm-qualifier,
+.cm-s-obsidian .cm-meta {
+    color: #4E4E4E;
+}
+
+/* Highlighted words */
+::selection {
+    background-color: #FFFF00;
+    opacity: 0.5;
+}
