@@ -1,43 +1,17 @@
-# obsidian-
-
-https://help.obsidian.md/How+to/Add+custom+styles
-
+# Nature Theme for Obsidian
 
 ## About 
 
-- [Features](#features)
-- [Installation](#installation)
-- [Settings](#settings)
-- [Color schemes](#color-schemes)
-- [Plugin support](#plugin-support)
-- [Helper classes](#helper-filters-and-classes)
-- [Hotkeys](#hotkeys)
-- [Contributing](#contributing)
-- [Developers](#developers)
-- [Special Thanks](#special-thanks)
-- [Disclaimer](#disclaimer)
-
-## Features
+Relax with nature theme in Obsidian. Uses warm toned colors and a minimalistic design to help you focus on your notes.
 
 ## Installation
 
-## Settings
+To install the theme
 
-## Color schemes
-
-## Plugin support
-
-## Helper filters and classes
-
-## Hotkeys
-
-## Contributing
-
-## Developers
-
-## Special Thanks
+- Open Obsidian Settings
+- Go to `Appearance` and click `Manage`
+- Under community themes search for "Nature" and click `Use`
 
 ## Disclaimer
 
-
-
+This theme is still in development and may have some bugs. If you find any, please open an issue on the GitHub repository. 
